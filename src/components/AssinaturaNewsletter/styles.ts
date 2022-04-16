@@ -8,20 +8,19 @@ export const Container = styled.section`
 
   background-image: url('/images/image-hero.png');
   background-repeat: no-repeat;
-  background-position: 100% 100%;
+  background-position: 90% 100%;
 
   @media (max-width: 1100px) {
     background-image: none;
   }
 
   @media (max-width: 980px) {
-    padding: 75px 0 150px;
+    padding: 75px 0;
   }
 
   span {
     font-size: 22px;
-    color: #202020;
-    opacity: 0.5;
+    color: #8f8f8f;
   }
 
   h2 {
@@ -33,13 +32,17 @@ export const Container = styled.section`
     color: #202020;
 
     margin-top: 12px;
+
+    @media (max-width: 400px) {
+      font-size: 64px;
+      line-height: 72px;
+    }
   }
 
   p {
     font-size: 16px;
     line-height: 26px;
-    color: #202020;
-    opacity: 0.5;
+    color: #8f8f8f;
 
     margin-top: 24px;
     max-width: 480px;
@@ -86,9 +89,11 @@ export const Container = styled.section`
       font-size: 16px;
       line-height: 20px;
 
-      color: #202020;
+      color: #bcbcbc;
 
-      opacity: 0.3;
+      &::placeholder {
+        color: #bcbcbc;
+      }
     }
 
     button {
