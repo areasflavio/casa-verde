@@ -1,3 +1,11 @@
+import { AssinaturaNewsletter } from 'components/AssinaturaNewsletter';
+import { Menu } from 'components/Menu';
+
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return (
+    <main>
+      <Menu />
+      <AssinaturaNewsletter />
+    </main>
+  );
 }

@@ -9,9 +9,16 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #fff;
+    background: #F7F7F7;
     color: #202020;
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: url('/images/body-shape.svg'),
+                        url('/images/bg.jpg');
+    background-repeat: no-repeat, 
+                      repeat-x;
+    background-position: right top;
   }
 
   body, input, button {
@@ -25,7 +32,34 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 900;
   }
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  ul {
+    list-style: none;
+  } 
+
   button {
     cursor: pointer;
+  }
+
+  input, button {
+    border: none;
+  }
+  
+  main {
+    max-width: 1240px;
+    padding: 10px 20px;
+    margin: 0 auto;
+
+    position: relative;
+  }
+
+  @media(max-width: 980px) {
+    body {
+      background-image: none;
+    }
   }
 `;
