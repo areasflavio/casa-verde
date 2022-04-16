@@ -19,29 +19,29 @@ export const Container = styled.section`
   }
 
   span {
-    font-size: 22px;
+    font-size: 1.375rem;
     color: #8f8f8f;
   }
 
   h2 {
     font-family: 'Elsie Swash Caps';
     font-weight: 900;
-    font-size: 82px;
-    line-height: 94px;
+    font-size: 5.125rem;
+    line-height: 1.146;
 
     color: #202020;
 
     margin-top: 12px;
 
     @media (max-width: 400px) {
-      font-size: 64px;
-      line-height: 72px;
+      font-size: 4rem;
+      line-height: 1.146;
     }
   }
 
   p {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625;
     color: #8f8f8f;
 
     margin-top: 24px;
@@ -86,8 +86,8 @@ export const Container = styled.section`
       grid-area: input;
       height: 100%;
 
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 1rem;
+      line-height: 1.25rem;
 
       color: #bcbcbc;
 
@@ -101,8 +101,8 @@ export const Container = styled.section`
       background: #ffcb47;
       height: 100%;
 
-      font-size: 16px;
-      line-height: 20px;
+      font-size: 1rem;
+      line-height: 1.25rem;
       text-align: center;
 
       padding: 0 24px;

@@ -23,16 +23,16 @@ export const Container = styled.div`
 
   span,
   li {
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 1.375rem;
+    line-height: 1.227;
 
     color: #8f8f8f;
   }
 
   h3 {
     margin-top: 12px;
-    font-size: 42px;
-    line-height: 48px;
+    font-size: 2.625rem;
+    line-height: 1.143;
 
     color: #202020;
   }

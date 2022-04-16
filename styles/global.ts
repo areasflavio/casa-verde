@@ -15,7 +15,8 @@ export const GlobalStyle = createGlobalStyle`
     -moz-osx-font-smoothing: grayscale;
 
     background-image: url('/images/body-shape.svg'),
-                        url('/images/bg.jpg');
+                      url('/images/bg-lines.svg'),
+                      url('/images/bg.jpg');
     background-repeat: no-repeat, 
                       repeat-x;
     background-position: right top;
