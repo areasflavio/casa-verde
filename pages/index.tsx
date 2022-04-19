@@ -1,6 +1,7 @@
 import { AssinaturaNewsletter } from 'components/AssinaturaNewsletter';
 import { Info } from 'components/Info';
 import { Menu } from 'components/Menu';
+import { Ofertas } from 'components/Ofertas';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Menu />
       <AssinaturaNewsletter />
       <Info />
+      <Ofertas />
     </main>
   );
 }
