@@ -32,9 +32,21 @@ export const Container = styled.footer`
       row-gap: 16px;
     }
 
-    li + li::before {
-      content: '/';
-      margin: 0 16px;
+    li {
+      position: relative;
+
+      & + li::before {
+        content: '/';
+        margin: 0 16px;
+      }
+    }
+
+    a {
+      transition: color 0.2s;
+
+      &:hover {
+        color: #ffcb47;
+      }
     }
   }
 `;
