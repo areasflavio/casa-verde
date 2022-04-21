@@ -39,6 +39,14 @@ export const Container = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+
+    @media (max-width: 1240px) {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 840px) {
+      grid-template-columns: 1fr;
+    }
   }
 `;
 
@@ -59,6 +67,10 @@ export const PlantaCard = styled.li<PlantaCardProps>`
     flex-direction: column;
 
     padding: 27px 27px 27px 0;
+
+    @media (max-width: 840px) {
+      background: rgba(255, 255, 255, 0.15);
+    }
   }
 
   h4 {
